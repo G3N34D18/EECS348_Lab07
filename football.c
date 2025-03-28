@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include "football.h"
 
 int count_combinations(int points) {
-    int count;
+    int count = 0;
     for (int convTD = 0; convTD <= points / 8; convTD++) {
         for(int fgTD = 0; fgTD <= points / 7; fgTD++) {
             for(int td = 0; td <= points / 6; td++) {

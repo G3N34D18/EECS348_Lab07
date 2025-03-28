@@ -35,4 +35,27 @@ float celsius_to_kelvin(float celsius);
  */
 float kelvin_to_celsius(float celsius);
 
+/**
+ * @brief Convert temperature in Fahrenheit to Kelvin
+ * 
+ * @param celsius
+ * @return float
+ */
+float kelvin_to_fahrenheit(float celsius);
+
+/**
+ * @brief Convert temperature in Kelvin to Fahrenheit
+ * 
+ * @param celsius
+ * @return float
+ */
+float fahrenheit_to_kelvin(float celsius);
+
+/**
+ * @brief Provides advisory message based on Celsius temperature
+ * 
+ * @param celsius
+ * @return const char* Advisory message
+ */
+void categorize_function(float celsius);
 #endif /* __REPORT_H__ */
